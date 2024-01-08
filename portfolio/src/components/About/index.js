@@ -27,7 +27,7 @@ const About = () => {
                         idx={15}
                     />
                 </h1>
-                <p>I'm very abitious computer science student looking for a role in software development wuth the the opportunity to work with latest technologies on challenging and diverse projects</p>
+                <p>I'm very abitious computer science student looking for a role in software development with the the opportunity to work with latest technologies on challenging and diverse projects</p>
                 <p>As a software developer, I possess an analytical mindset, meticulous attention to detail, strong problem-solving skills, a commitment to continuous learning, and effective communication, ensuring a versatile and collaborative approach to software development.</p>
                 <p>If I need to define myself in one sentence that would be "I'm a tech-savvy, family-oriented individual with a deep love for learning, always eager to explore and embrace the latest advancements in technology."</p>
             </div>
