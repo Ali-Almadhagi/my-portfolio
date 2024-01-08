@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback } from 'react'
 import Loader from 'react-loaders'
-import { GoogleMap, useJsApiLoader, Marker, InfoWindow  } from '@react-google-maps/api';
+import { GoogleMap, useJsApiLoader, MarkerF  } from '@react-google-maps/api';
 import { useRef } from 'react'
 import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
@@ -130,11 +130,14 @@ const Contact = () => {
       <GoogleMap 
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={11}
+        zoom={13}
         onLoad={onLoad}
         onUnmount={onUnmount}
       >
-        <Marker position={{ lat: 42.325, lng: -83.17 }} />
+        <MarkerF  
+          position={center} 
+          
+        />
       </GoogleMap>
       </div>
       
