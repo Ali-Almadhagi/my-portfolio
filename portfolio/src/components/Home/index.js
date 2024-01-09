@@ -3,7 +3,7 @@ import LogoLetter from '../../assets/images/letter.png';
 import './index.scss';
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-import Logo from '../Logo';
+import Logo from '../Home/Logo';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');

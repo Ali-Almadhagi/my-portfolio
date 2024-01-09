@@ -9,7 +9,7 @@
 
     .logo {
         display: block;
-        
+  
     }
 
     img {
@@ -121,3 +121,87 @@
     }
 
 }
+
+.hamburger-icon, .close-icon {
+    display: none;
+}
+
+.logo1 {
+    display: none;
+}
+
+  
+
+@media screen and (max-width: 1200px) {
+    .nav-bar { 
+      background: transparent;
+      position: initial;
+      height: auto;
+      min-height: auto;
+  
+       ul, nav {
+        display: none;
+       }
+  
+    nav {
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: #181818;
+        color: #E0E0E0;
+        height: 10%;
+        margin: 0;
+        z-index: 2;
+        position: fixed;
+  
+        &.mobile-show {
+          display: block;
+        }
+  
+        a {
+          display: flex;
+          flex-wrap: wrap;
+          float: left;
+          left: 10%;
+          top: 20px;
+          justify-content: center;
+          align-items: center;
+          
+        }
+
+        a:after {
+            opacity: 0;
+            position: initial;
+            color: #E0E0E0;
+            width: auto;  
+            margin-right: 20px;
+            
+        }
+        
+  
+        a svg {
+          opacity: 1 !important;
+        }
+
+        a svg::after {
+            opacity: 0;
+        }
+    }
+
+       .logo{
+        display: none;
+       }
+
+       .logo1{
+        display: block;
+       }
+  
+       .hamburger-icon,
+       .close-icon {
+          position: absolute;
+          top: 30px;
+          right: 25px;
+          display: block;
+       }
+    }
+  }

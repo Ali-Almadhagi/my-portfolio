@@ -51,7 +51,8 @@
     .flat-button {
         color: #181818;
         font-size: 18px;
-        font-weight: 400;
+        font-weight: 550;
+        width: 200px;
         letter-spacing: 4px;
         font-family: sans-serif;
         text-decoration: none;
@@ -69,4 +70,44 @@
     }
 
     
+}
+
+@media screen and (max-width: 1200px) {
+    .tags,
+    .home-page h1:before,
+    .home-page h1:after {
+      display: none;
+    }
+  
+    .home-page {
+      .text-zone {
+        position: initial;
+        width: 100%;
+        transform: none;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+    
+      .flat-button {
+        float: none;
+        margin: 20px auto 0 auto;
+        width: fit-content;
+        font-size: 15px;
+      }
+    
+      .logo-container {
+        display: none;
+        
+      }
+    
+      .logo-container svg {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+      }
+    }
+
 }

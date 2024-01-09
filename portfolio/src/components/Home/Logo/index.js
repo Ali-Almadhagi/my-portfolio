@@ -1,5 +1,5 @@
 import './index.scss'
-import LetterLogo from '../../assets/images/letterLogo.png' 
+import LetterLogo from '../../../assets/images/letterLogo.png'
 import { useEffect, useRef } from 'react'
 
 const Logo = () => {
