@@ -140,8 +140,9 @@ const Contact = () => {
         />
       </GoogleMap>
       </div>
-      
+      <Loader type="cube-transition" />
     </>
+       
         
     ) : <></>
 }
