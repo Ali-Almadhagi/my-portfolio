@@ -12,13 +12,6 @@
             "title": "Portfolio website",
             "description": "React, SCSS, HTML, CSS, JavaScript",
             "url": "https://github.com/Ali-Almadhagi/my-portfolio"
-        },
-
-        {
-            "cover": "/portfolio/one.png",
-            "title": "Biometric Authentication for Vehicle Security",
-            "description": "HTML, CSS, JavaScript",
-            "url": "https://github.com/Ali-Almadhagi/COSC374"
-        }
+        }   
     ]
 }
