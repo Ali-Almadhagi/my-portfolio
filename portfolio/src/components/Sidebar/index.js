@@ -28,9 +28,6 @@ const Sidebar = () => {
             <NavLink exact='true' activeclassname="active" className="projects-link" to="/portfolio" onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faLightbulb} color='aliceblue'/>
             </NavLink>
-            <NavLink exact='true' activeclassname="active" className="skills-link" to="/skills" onClick={() => setShowNav(false)}>
-                <FontAwesomeIcon icon={faGear} color='aliceblue'/>
-            </NavLink>
             <NavLink exact='true' activeclassname="active" className="contact-link" to="/contact" onClick={() => setShowNav(false)}>
                 <FontAwesomeIcon icon={faEnvelope} color='aliceblue'/>
             </NavLink>
