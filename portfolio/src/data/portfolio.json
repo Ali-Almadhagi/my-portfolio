@@ -14,14 +14,14 @@
             "url": "https://github.com/Ali-Almadhagi/my-portfolio"
         },  
         {
-            "cover": "/portfolio/fruit.jpg",
+            "cover": "/portfolio/fruit.png",
             "title": "Fruit Price Prediction",
             "description": "Python, Machine-Learning",
             "url": "https://github.com/Ali-Almadhagi/COSC374"
         },
 
         {
-            "cover": "/portfolio/ReMarket-TypeLogo.png",
+            "cover": "/portfolio/ReMarketlogo.png",
             "title": "ReMarket",
             "description": "HTML, CSS, PHP, JavaScript, SQL",
             "url": "https://github.com/Ali-Almadhagi/my-portfolio"
